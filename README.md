@@ -1,6 +1,6 @@
 # Olympics_SQL
 
-[Dataset](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results?select=noc_regions.csv)
+[Dataset](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results?select=noc_regions.csv) </br>
 [Go try your hands on it](https://console.cloud.google.com/bigquery?sq=410130076228:b9aad05d05da4af8a21ef37823fd13db)
 
 
@@ -36,8 +36,10 @@ Which year saw the highest and lowest no of countries participating in olympics?
       SELECT Games, cnt, RANK() OVER(ORDER BY cnt ASC) AS asc_rnk, RANK() OVER(ORDER BY cnt DESC) AS desc_rnk
       FROM cnt_countries
       )
-    SELECT Games, cnt AS Max_Min_Countries
-    FROM rnk_countries
+    SELECT 
+        Games, cnt AS Max_Min_Countries
+    FROM 
+        rnk_countries
     WHERE (asc_rnk = 1) OR (desc_rnk = 1);
 
 
