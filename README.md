@@ -78,6 +78,11 @@ Which Sports were just played only once in the olympics?<br/>
         sports_cnt
     WHERE sports_cnt.times_played = 1;
 
+![image](https://user-images.githubusercontent.com/91784043/175773466-80b97e1b-3322-43f3-ae11-550db14e0f12.png)
+
+Interesting! Cricket was also played once in Olympics, I looked up and found more information on it. </br>
+[Check out what Wiki has to tell you about it.](https://en.wikipedia.org/wiki/Cricket_at_the_1900_Summer_Olympics#:~:text=A%20cricket%20tournament%2C%20played%20as,158%20runs%20by%20Great%20Britain.)
+
 Fetch details of the oldest athletes to win a gold medal.
 
 Find what percentage of total athletes were females?
