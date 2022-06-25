@@ -1,10 +1,19 @@
 # Olympics 
 
+Hey there, welcome! In the Resources Folder, you'll find *2 CSV files-* </br> 
+1. Athlete_Events.csv
+2. NOC_Regions.csv
+
+</br>
+
+I did this entire SQL Analysis on Google BigQuery, [click here](https://console.cloud.google.com/bigquery?sq=410130076228:b9aad05d05da4af8a21ef37823fd13db&project=olympics-project-120years) to check out **(& run)** all of these queries on BigQuery Sandbox *(you'll need a gmail account).* [The Dataset](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results?select=noc_regions.csv) has been fetched from [Kaggle](https://www.kaggle.com/) (a brilliant resource for folks in Data Industry). If you'd like to know how to upload the dataset on BigQuery, [go check out this video]() *(Best part is that all you'd need is a gmail account!)*</br></br>
+
+Do ping me if you need something else. </br> 
+*Happy Learning! :)*
+</br></br></br></br>
 
 
-[Dataset](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results?select=noc_regions.csv) </br>
-[Go try your hands on it](https://console.cloud.google.com/bigquery?sq=410130076228:b9aad05d05da4af8a21ef37823fd13db)
-
+### Queries
 
 1] How many olympics games have been held? 
 
@@ -21,7 +30,7 @@
 <p align = "center">
 Query 1: No. Of Olympic Games
 </p>
- </br>
+ </br> </br>
  
 2] Mention the total no of nations who participated in each olympics game.
 
@@ -37,7 +46,7 @@ Query 1: No. Of Olympic Games
 <p align = "center">
 Query 2: No. Of nations participating in Olympic Games
 </p>
- </br>
+ </br> </br>
 
 3] Which year saw the highest and lowest no of countries participating in olympics?
 
@@ -64,7 +73,7 @@ Query 2: No. Of nations participating in Olympic Games
 <p align = "center">
 Query 3: Highest & Lowest no of countries to participate
 </p>
- </br>
+ </br> </br>
 
 4] Which nation has participated in all of the olympic games?
 
@@ -83,7 +92,7 @@ Query 3: Highest & Lowest no of countries to participate
 <p align = "center">
 Query 4: Nations participating in all Olympics
 </p>
- </br>
+ </br> </br>
 
 5] Which Sports were just played only once in the olympics?<br/>
 
@@ -103,26 +112,27 @@ Query 4: Nations participating in all Olympics
 <p align = "center">
 Query 5: Sports which were played only once throughout Olympics
 </p>
- </br>
+ </br> </br>
  
 Interesting! Cricket was also played once in Olympics, I looked up and found more information on it. </br>
 [Check out what Wiki has to tell you about **Cricket At The 1900 Summer Olympics**](https://en.wikipedia.org/wiki/Cricket_at_the_1900_Summer_Olympics#:~:text=A%20cricket%20tournament%2C%20played%20as,158%20runs%20by%20Great%20Britain.)
 
 
 ### Under Construction!
+### Queries I'll be working on soon....
 
-Fetch details of the oldest athletes to win a gold medal.
+6] Fetch details of the oldest athletes to win a gold medal.
 
-Find what percentage of total athletes were females?
+7] Find what percentage of total athletes were females?
 
-Fetch the top 5 athletes who have won the most gold medals.
-Fetch the top 5 athletes who have won the most medals (gold/silver/bronze).
+8] Fetch the top 5 athletes who have won the most gold medals.
+9] Fetch the top 5 athletes who have won the most medals (gold/silver/bronze).
 
 
-List down total gold, silver and broze medals won by each country.<br/>
-List down total gold, silver and broze medals won by each country corresponding to each olympic games.<br/>
+10] List down total gold, silver and broze medals won by each country.<br/>
+11] List down total gold, silver and broze medals won by each country corresponding to each olympic games.<br/>
 
-And now the mandatory, how-is-MY-country-performing questions
+12] And now the mandatory, how-is-MY-country-performing questions
 
-In which Sport/event, India has won highest medals.
-Break down all olympic games where india won medal for Hockey and how many medals in each olympic games.
+13] In which Sport/event, India has won highest medals.
+14] Break down all olympic games where india won medal for Hockey and how many medals in each olympic games.
