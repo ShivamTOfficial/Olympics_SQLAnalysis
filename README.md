@@ -1,12 +1,18 @@
 # Olympics 
 
-Hey there, welcome! In the Resources Folder, you'll find *2 CSV files-* </br> 
+![1_tQRqA2N3Rn8OspbT2wUN-w](https://user-images.githubusercontent.com/91784043/175775686-1f591611-6ef9-497f-a0ca-62702d7d4783.png)
+
+Hey there, welcome! 
+</br></br>
+
+This entire SQL Analysis has been done on Google BigQuery, [click here](https://console.cloud.google.com/bigquery?sq=410130076228:b9aad05d05da4af8a21ef37823fd13db&project=olympics-project-120years) to check out **(& run)** all of these queries on BigQuery Sandbox *(you'll need a gmail account).* [The Dataset](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results?select=noc_regions.csv) has been fetched from [Kaggle](https://www.kaggle.com/) (a brilliant resource for folks in Data Industry). If you'd like to know how to upload the dataset on BigQuery, [go check out this video]() *(Best part is that all you'd need is, again, a gmail account!)*
+</br></br>
+
+In the Resources Folder, you'll find *2 CSV files-* </br> 
 1. Athlete_Events.csv
 2. NOC_Regions.csv
 
 </br>
-
-I did this entire SQL Analysis on Google BigQuery, [click here](https://console.cloud.google.com/bigquery?sq=410130076228:b9aad05d05da4af8a21ef37823fd13db&project=olympics-project-120years) to check out **(& run)** all of these queries on BigQuery Sandbox *(you'll need a gmail account).* [The Dataset](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results?select=noc_regions.csv) has been fetched from [Kaggle](https://www.kaggle.com/) (a brilliant resource for folks in Data Industry). If you'd like to know how to upload the dataset on BigQuery, [go check out this video]() *(Best part is that all you'd need is a gmail account!)*</br></br>
 
 Do ping me if you need something else. </br> 
 *Happy Learning! :)*
@@ -114,8 +120,17 @@ Query 5: Sports which were played only once throughout Olympics
 </p>
  </br> </br>
  
-Interesting! Cricket was also played once in Olympics, I looked up and found more information on it. </br>
-[Check out what Wiki has to tell you about **Cricket At The 1900 Summer Olympics**](https://en.wikipedia.org/wiki/Cricket_at_the_1900_Summer_Olympics#:~:text=A%20cricket%20tournament%2C%20played%20as,158%20runs%20by%20Great%20Britain.)
+ Interesting, once Cricket was also played in Olympics, I looked up and found some more information on it. </br>
+Check out what Wiki has to tell you about [**Cricket At The 1900 Summer Olympics**](https://en.wikipedia.org/wiki/Cricket_at_the_1900_Summer_Olympics#:~:text=A%20cricket%20tournament%2C%20played%20as,158%20runs%20by%20Great%20Britain.)
+
+
+![1_5f3e0eba82000](https://user-images.githubusercontent.com/91784043/175775958-e02e669a-8131-4981-950a-8d9922480359.jpg)
+
+<p align = "center">
+Cricket at the 1900 Summer Olympics
+</p>
+ </br>
+ 
 
 
 ### Under Construction!
