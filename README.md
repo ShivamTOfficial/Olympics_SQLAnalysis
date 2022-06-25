@@ -67,6 +67,17 @@ Which nation has participated in all of the olympic games?
 
 Which Sports were just played only once in the olympics?<br/>
 
+    WITH sports_cnt
+    AS (
+    SELECT Sport, COUNT(DISTINCT Games) AS times_played
+    FROM `olympics-project-120years.Olympics.Athlete_Events`
+    GROUP BY Sport)
+    SELECT 
+        *
+    FROM 
+        sports_cnt
+    WHERE sports_cnt.times_played = 1;
+
 Fetch details of the oldest athletes to win a gold medal.
 
 Find what percentage of total athletes were females?
