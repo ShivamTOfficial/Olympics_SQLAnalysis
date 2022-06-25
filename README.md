@@ -13,6 +13,8 @@ How many olympics games have been held?
       FROM `olympics-project-120years.Olympics.Athlete_Events`
       );
 
+![image](https://user-images.githubusercontent.com/91784043/175772998-265866a1-5233-4e89-9dec-d734b5570d2a.png)
+
 Mention the total no of nations who participated in each olympics game.
 
     SELECT 
@@ -21,6 +23,9 @@ Mention the total no of nations who participated in each olympics game.
       `olympics-project-120years.Olympics.Athlete_Events`
     GROUP BY Games
     ORDER BY Games;
+
+![image](https://user-images.githubusercontent.com/91784043/175773057-4e57d0f8-401d-415f-9ffc-83aecc36646c.png)
+
 
 Which year saw the highest and lowest no of countries participating in olympics?
 
@@ -42,8 +47,22 @@ Which year saw the highest and lowest no of countries participating in olympics?
         rnk_countries
     WHERE (asc_rnk = 1) OR (desc_rnk = 1);
 
+![image](https://user-images.githubusercontent.com/91784043/175773084-439200cb-e5ed-473e-812d-b2622b4fdd8d.png)
+
 
 Which nation has participated in all of the olympic games?
+
+    WITH games_played
+    AS (
+      SELECT Team, COUNT(DISTINCT Games) AS times_participated
+      FROM `olympics-project-120years.Olympics.Athlete_Events`
+      GROUP BY Team
+    )
+    SELECT *
+    FROM games_played
+    WHERE times_participated = 51;
+
+![Screenshot 2022-06-25 174113](https://user-images.githubusercontent.com/91784043/175772967-2573bbaa-9ab8-4b56-b86f-dc03a8f57947.png)
 
 
 Which Sports were just played only once in the olympics?<br/>
