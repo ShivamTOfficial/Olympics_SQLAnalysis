@@ -25,7 +25,7 @@ Do ping me if you need something else. </br>
       );
       
  
-![image](https://user-images.githubusercontent.com/91784043/175772998-265866a1-5233-4e89-9dec-d734b5570d2a.png)
+![image](https://user-images.githubusercontent.com/91784043/175775555-61b8c552-dcf3-4105-8903-f352c7a2f9dc.png)
 
 <p align = "center">
 Query 1: No. Of Olympic Games
