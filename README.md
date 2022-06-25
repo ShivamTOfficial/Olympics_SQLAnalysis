@@ -132,7 +132,7 @@ Interesting! Cricket was also played once in Olympics, I looked up and found mor
 10] List down total gold, silver and broze medals won by each country.<br/>
 11] List down total gold, silver and broze medals won by each country corresponding to each olympic games.<br/>
 
-12] And now the mandatory, how-is-MY-country-performing questions
+And now the mandatory, how-is-MY-country-performing questions </br>
 
-13] In which Sport/event, India has won highest medals.
-14] Break down all olympic games where india won medal for Hockey and how many medals in each olympic games.
+12] In which Sport/event, India has won highest medals. </br>
+13] Break down all olympic games where india won medal for Hockey and how many medals in each olympic games.
