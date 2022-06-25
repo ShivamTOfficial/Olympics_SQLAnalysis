@@ -23,32 +23,22 @@ Mention the total no of nations who participated in each olympics game.
 
 Which year saw the highest and lowest no of countries participating in olympics?
 
-    WITH 
-    
-    all_regions
-    AS (
-      SELECT Games, NR.Regions
-          FROM `olympics-project-120years.Olympics.Athlete_Events` AE
-          JOIN `olympics-project-120years.Olympics.NOC_Regions` NR 
-          ON NR.NOC = AE.NOC
-        GROUP BY Games, NR.Regions),
-        
+    WITH
     cnt_countries
     AS (
-      SELECT Games, COUNT(Games) AS cnt
-      FROM all_regions
+      SELECT Games, COUNT(DISTINCT NOC) AS cnt
+      FROM `olympics-project-120years.Olympics.Athlete_Events`
       GROUP BY Games
     ),
-    
     rnk_countries
     AS (
       SELECT Games, cnt, RANK() OVER(ORDER BY cnt ASC) AS asc_rnk, RANK() OVER(ORDER BY cnt DESC) AS desc_rnk
       FROM cnt_countries
       )
-      
     SELECT Games, cnt AS Max_Min_Countries
     FROM rnk_countries
     WHERE (asc_rnk = 1) OR (desc_rnk = 1);
+
 
 Which nation has participated in all of the olympic games?
 
