@@ -1,6 +1,7 @@
 # Olympics_SQL
 
 [Dataset](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results?select=noc_regions.csv)
+[Go try your hands on it](https://console.cloud.google.com/bigquery?sq=410130076228:b9aad05d05da4af8a21ef37823fd13db)
 
 
 How many olympics games have been held? 
