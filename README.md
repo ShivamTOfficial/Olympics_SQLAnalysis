@@ -4,7 +4,7 @@
 [Go try your hands on it](https://console.cloud.google.com/bigquery?sq=410130076228:b9aad05d05da4af8a21ef37823fd13db)
 
 
-How many olympics games have been held? 
+1] How many olympics games have been held? 
 
     SELECT 
       COUNT(*) AS Number_Of_Olympics
@@ -15,7 +15,7 @@ How many olympics games have been held?
 
 ![image](https://user-images.githubusercontent.com/91784043/175772998-265866a1-5233-4e89-9dec-d734b5570d2a.png)
 
-Mention the total no of nations who participated in each olympics game.
+2] Mention the total no of nations who participated in each olympics game.
 
     SELECT 
       Games, COUNT(DISTINCT NOC) AS No_Of_Countries
@@ -27,7 +27,7 @@ Mention the total no of nations who participated in each olympics game.
 ![image](https://user-images.githubusercontent.com/91784043/175773057-4e57d0f8-401d-415f-9ffc-83aecc36646c.png)
 
 
-Which year saw the highest and lowest no of countries participating in olympics?
+3] Which year saw the highest and lowest no of countries participating in olympics?
 
     WITH
     cnt_countries
@@ -50,7 +50,7 @@ Which year saw the highest and lowest no of countries participating in olympics?
 ![image](https://user-images.githubusercontent.com/91784043/175773084-439200cb-e5ed-473e-812d-b2622b4fdd8d.png)
 
 
-Which nation has participated in all of the olympic games?
+4] Which nation has participated in all of the olympic games?
 
     WITH games_played
     AS (
@@ -65,7 +65,7 @@ Which nation has participated in all of the olympic games?
 ![Screenshot 2022-06-25 174113](https://user-images.githubusercontent.com/91784043/175772967-2573bbaa-9ab8-4b56-b86f-dc03a8f57947.png)
 
 
-Which Sports were just played only once in the olympics?<br/>
+5] Which Sports were just played only once in the olympics?<br/>
 
     WITH sports_cnt
     AS (
@@ -82,6 +82,9 @@ Which Sports were just played only once in the olympics?<br/>
 
 Interesting! Cricket was also played once in Olympics, I looked up and found more information on it. </br>
 [Check out what Wiki has to tell you about it.](https://en.wikipedia.org/wiki/Cricket_at_the_1900_Summer_Olympics#:~:text=A%20cricket%20tournament%2C%20played%20as,158%20runs%20by%20Great%20Britain.)
+
+
+### Under Construction!
 
 Fetch details of the oldest athletes to win a gold medal.
 
